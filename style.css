@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+height: 100vh;
+width: 100%;
+background-image: url(image/background.png);
+background-position: center;
+background-size: cover;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+position:relative;
+background-color: lightgray; 
+}
+.navbar{
+    height: 20vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor:pointer;
+}
+.cart{
+    width: 40px;
+    cursor:pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;  /* Space between the items */
+    margin-top: 0px;    /* Space above each item */
+    margin-bottom: 0px; /* Space below each item */
+}
+nav ul li{
+    text-decoration: none;
+    color:#333;
+}
+.About h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+.About{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.About .btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 8px;  /* Make corners more rounded */
+    padding: 15px 30px;  /* Increase padding for a larger button */
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+.feature-img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right:160px;
+}
+.social {
+    transform: rotate(-90deg);  /* Rotate the container */
+    position: absolute;
+    left: 20px;                 /* Adjusted to a more visible position */
+    bottom: 180px;              /* Adjusted for vertical placement */}
+
+.social a{
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 14px;
+}
