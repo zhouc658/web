@@ -57,7 +57,7 @@ function setup() {
   
   // Create button
   yesButton = createButton("Yes");
-  yesButton.position(320, 450);
+  yesButton.position(770, 600);
   yesButton.mousePressed(startJourney); 
 
   // Create golden stick pieces
